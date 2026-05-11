@@ -1,0 +1,20 @@
+# Ohmera Website
+
+## Struktur
+```
+index.html            ← Hauptseite
+css/style.css         ← Alle Styles
+js/main.js            ← Alle Animationen & Logik
+assets/
+  images/team.jpg     ← Teamfoto
+  icons/logo.svg      ← Logo (cropped, kein schwarzer Hintergrund)
+```
+
+## GitHub Pages deployen
+1. Neues Repo erstellen
+2. Alle Dateien hochladen (Ordnerstruktur beibehalten!)
+3. Settings → Pages → Branch: main → Save
+4. Domain ohmera.de in den DNS-Einstellungen eintragen
+
+## Steuernummer
+Im Impressum (index.html) noch [bitte ergänzen] durch echte Steuernummer ersetzen.

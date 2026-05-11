@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ohmera Elektrotechnik – Zuverlässig. Regional. Direkt.</title>
+  <meta name="description" content="Ohmera Benning & Köster Elektrotechnik – Ihr Elektriker in Oberndorf am Neckar. Neubau, Sanierung, Smart Home, PV und mehr.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap&font-display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/icons/logo.svg" as="image">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<a href="https://wa.me/4917691489215?text=Hallo%20Ben!%20Ich%20habe%20eine%20Anfrage%20f%C3%BCr%20meine%20Baustelle%20%2F%20mein%20Projekt%20und%20w%C3%BCrde%20gerne%20ein%20Angebot%20erhalten." target="_blank" class="wa-float" aria-label="WhatsApp"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+
+<nav id="navbar">
+  <a href="#hero" class="nav-logo"><img src="assets/icons/logo.svg" alt="Ohmera Elektrotechnik"></a>
+  <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#leistungen">Leistungen</a></li>
+    <li><a href="#warum">Warum Ohmera</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#kontakt" class="nav-cta">Vernetzen</a></li>
+  </ul>
+</nav>
+
+<section id="hero">
+  <div class="hero-bg"></div>
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-content">
+    <div class="hero-badge">⚡ Ihr Elektriker in Oberndorf am Neckar</div>
+    <h1 class="hero-title"><span class="grad">Ohmera</span><br>Elektrotechnik</h1>
+    <p class="hero-sub"><em>Zuverlässig. Regional. Direkt.</em></p>
+    <div class="hero-btns">
+      <a href="tel:017691489215" class="btn-call">📞 Jetzt anrufen</a>
+      <a href="https://wa.me/4917691489215?text=Hallo%20Ben!%20Ich%20habe%20eine%20Anfrage%20f%C3%BCr%20meine%20Baustelle%20%2F%20mein%20Projekt%20und%20w%C3%BCrde%20gerne%20ein%20Angebot%20erhalten." target="_blank" class="btn-wa">💬 WhatsApp</a>
+      <a href="#leistungen" class="btn-ghost">Unsere Leistungen</a>
+    </div>
+  </div>
+  <div class="scroll-hint"><span>Mehr entdecken</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 10l5 5 5-5"/></svg></div>
+</section>
+
+<div class="stats-bar">
+  <div class="stat-item"><span class="stat-icon">⚡</span><div class="stat-label"><strong>Schnell vor Ort</strong>Kurzfristig verfügbar</div></div>
+  <div class="stat-item"><span class="stat-icon">📍</span><div class="stat-label"><strong>Oberndorf & Umgebung</strong>30 km Einsatzradius</div></div>
+  <div class="stat-item"><span class="stat-icon">🧹</span><div class="stat-label"><strong>Saubere Ausführung</strong>Ordentlich & zuverlässig</div></div>
+  <div class="stat-item"><span class="stat-icon">🚨</span><div class="stat-label"><strong>Notdienst</strong>Auf Anfrage verfügbar</div></div>
+</div>
+
+<section id="leistungen">
+  <div class="container">
+    <div class="reveal"><div class="sec-label">Was wir machen</div><h2 class="sec-title">Unsere Leistungen</h2><p class="sec-sub">Von der Zählerschrankinstallation bis zum Smart Home – euer Ansprechpartner für alle Bereiche der Elektrotechnik.</p></div>
+    <div class="services-grid">
+      <div class="svc-card featured reveal"><div class="svc-badge">⭐ Kernkompetenz</div><span class="svc-icon">⚡</span><h3>Zählerschrankinstallation</h3><p>Fachgerechte Installation, Modernisierung und Erweiterung – sicher, normkonform und auf dem neuesten Stand.</p></div>
+      <div class="svc-card reveal d1"><span class="svc-icon">🏗️</span><h3>Neubau-Elektrik</h3><p>Komplette Elektroinstallation für Ihr Neubauvorhaben – von der Planung bis zur Abnahme.</p></div>
+      <div class="svc-card reveal d2"><span class="svc-icon">🔧</span><h3>Sanierung & Modernisierung</h3><p>Altbau-Elektrik auf modernen Stand bringen – sicher, effizient und zukunftsfähig.</p></div>
+      <div class="svc-card reveal d1"><span class="svc-icon">☀️</span><h3>Photovoltaik</h3><p>PV-Anlagen für Eigenheim und Gewerbe. Eigene Energie, weniger Kosten.</p></div>
+      <div class="svc-card reveal d2"><span class="svc-icon">🔌</span><h3>E-Ladesäulen</h3><p>Wallbox und Ladestation – zukunftssicher und eichrechtskonform installiert.</p></div>
+      <div class="svc-card reveal d3"><span class="svc-icon">🌡️</span><h3>Wärmepumpen</h3><p>Elektrische Anbindung von Wärmepumpenanlagen – effizient heizen.</p></div>
+      <div class="svc-card reveal d1"><span class="svc-icon">🏠</span><h3>Smart Home</h3><p>Licht, Heizung, Sicherheit vernetzt steuern. Ihr smartes Zuhause nach Maß.</p></div>
+      <div class="svc-card reveal d2" style="position:relative;overflow:hidden;isolation:isolate;"><span class="svc-icon" style="position:relative;z-index:2;">🚨</span><h3 style="position:relative;z-index:2;">Notdienst</h3><p style="position:relative;z-index:2;">Elektrische Notfälle erfordern schnelles Handeln. Wir finden eine Lösung.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="warum">
+  <div class="container">
+    <div class="reveal" style="text-align:center;margin-bottom:3rem;"><div class="sec-label" style="justify-content:center;">Unser Versprechen</div><h2 class="sec-title">Warum Ohmera?</h2></div>
+    <div class="usp-grid">
+      <div class="usp-card reveal"><div class="usp-icon">⚡</div><h3>Keine Warteschleife</h3><p>Wir sind schnell verfügbar – ohne monatelange Wartezeiten. Kurz anfragen, Termin machen, fertig.</p></div>
+      <div class="usp-card reveal d1"><div class="usp-icon">📋</div><h3>Keine Überraschungen</h3><p>Klare Kommunikation vor und nach dem Auftrag – was vereinbart ist, gilt. Kein Kleingedrucktes.</p></div>
+      <div class="usp-card reveal d2"><div class="usp-icon">🧹</div><h3>Saubere Ausführung</h3><p>Wir hinterlassen Ihr Zuhause so, wie wir es vorgefunden haben. Respekt vor Ihrem Eigentum.</p></div>
+      <div class="usp-card reveal d3"><div class="usp-icon">📍</div><h3>Regional & persönlich</h3><p>Kein Callcenter. Ihr direkter Draht zu uns – von der ersten Anfrage bis zur Fertigstellung.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="team">
+  <div class="container">
+    <div class="team-wrap">
+      <div class="team-img-wrap reveal">
+        <div class="team-img"><img src="assets/images/team.jpg" alt="Ben Benning und Jens Köster – Gründer Ohmera Elektrotechnik"></div>
+        <div class="team-glow"></div>
+      </div>
+      <div class="team-text reveal d2">
+        <div class="sec-label">Das Team</div>
+        <h2>Zwei Köpfe.<br>Eine Mission.</h2>
+        <p>Ben Benning und Jens Köster haben Ohmera 2026 mit einer klaren Vision gegründet: Elektrotechnik, die man sich merkt. Zuverlässig, mit Leidenschaft fürs Handwerk – und immer nah am Kunden.</p>
+        <div class="team-quote">„Wir machen nicht einfach Elektrik – wir sorgen dafür, dass bei Ihnen das Licht angeht."</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt">
+  <canvas id="kontakt-canvas"></canvas>
+  <div class="container contact-inner">
+    <div class="reveal" style="text-align:center;margin-bottom:3rem;"><div class="sec-label" style="justify-content:center;">Sprechen wir</div><h2 class="sec-title">Vernetzen.</h2><p class="sec-sub" style="margin:0 auto 0;">Haben Sie ein Projekt, eine Frage oder ein Problem mit dem Strom? Wir melden uns schnell zurück.</p></div>
+    <div class="contact-grid">
+      <a href="tel:017691489215" class="ccard phone reveal"><span class="icon">📞</span><h3>Telefon</h3><div class="val">0176 914 89215</div><div class="hint">Mo – Sa, schnelle Rückmeldung</div></a>
+      <a href="https://wa.me/4917691489215?text=Hallo%20Ben!%20Ich%20habe%20eine%20Anfrage%20f%C3%BCr%20meine%20Baustelle%20%2F%20mein%20Projekt%20und%20w%C3%BCrde%20gerne%20ein%20Angebot%20erhalten." target="_blank" class="ccard wa reveal d1"><span class="icon">💬</span><h3>WhatsApp</h3><div class="val">Direkt schreiben</div><div class="hint">Nachricht wird vorformuliert</div></a>
+      <a href="mailto:strom@ohmera.de" class="ccard mail reveal d2"><span class="icon">📧</span><h3>E-Mail</h3><div class="val">strom@ohmera.de</div><div class="hint">Für Anfragen & Angebote</div></a>
+    </div>
+    <p class="contact-addr reveal">📍 Ohmera Benning & Köster Elektrotechnik GbR · Sonnenhalde 39 · 78727 Oberndorf am Neckar</p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="f-logo"><img src="assets/icons/logo.svg" alt="Ohmera"></div>
+    <ul class="f-links"><li><a onclick="openModal('impressum')">Impressum</a></li><li><a onclick="openModal('datenschutz')">Datenschutz</a></li></ul>
+    <div class="f-copy">© 2026 Ohmera Benning & Köster Elektrotechnik GbR</div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="modal-impressum">
+  <div class="modal"><button class="modal-x" onclick="closeModal('impressum')">✕</button><h2>Impressum</h2><h3>Angaben gemäß § 5 TMG</h3><p>Ohmera Benning & Köster Elektrotechnik GbR<br>Sonnenhalde 39<br>78727 Oberndorf am Neckar</p><h3>Vertreten durch</h3><p>Ben Benning<br>Jens Köster</p><h3>Kontakt</h3><p>Telefon: 017691489215<br>E-Mail: <a href="mailto:strom@ohmera.de">strom@ohmera.de</a></p><h3>Berufsbezeichnung & berufsrechtliche Regelungen</h3><p>Berufsbezeichnung: Elektrotechniker<br>Eingetragen in die Handwerksrolle der Handwerkskammer Konstanz<br>Steuernummer: <strong>[bitte ergänzen]</strong></p><h3>EU-Streitschlichtung</h3><p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr/" target="_blank">https://ec.europa.eu/consumers/odr/</a></p><h3>Verbraucherstreitbeilegung</h3><p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p><h3>Haftung für Inhalte</h3><p>Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte nach den allgemeinen Gesetzen verantwortlich.</p><h3>Urheberrecht</h3><p>Die durch die Seitenbetreiber erstellten Inhalte unterliegen dem deutschen Urheberrecht.</p></div>
+</div>
+
+<div class="modal-overlay" id="modal-datenschutz">
+  <div class="modal"><button class="modal-x" onclick="closeModal('datenschutz')">✕</button><h2>Datenschutzerklärung</h2><h3>1. Verantwortliche Stelle</h3><p>Ohmera Benning & Köster Elektrotechnik GbR<br>Sonnenhalde 39, 78727 Oberndorf am Neckar<br>E-Mail: <a href="mailto:strom@ohmera.de">strom@ohmera.de</a> · Tel.: 017691489215</p><h3>2. Hosting (GitHub Pages)</h3><p>Diese Website wird bei GitHub Pages gehostet (GitHub Inc., San Francisco, CA, USA). Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Weitere Infos: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank">GitHub Privacy Statement</a>.</p><h3>3. Kontaktaufnahme</h3><p>Daten aus E-Mail- oder Telefonkontakt werden zur Bearbeitung der Anfrage gespeichert. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.</p><h3>4. Cookies & Tracking</h3><p>Diese Website verwendet keine Cookies und keinerlei Analyse- oder Tracking-Dienste.</p><h3>5. Ihre Rechte</h3><p>Sie haben das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21 DSGVO).</p><h3>6. Beschwerderecht</h3><p>Landesbeauftragter für Datenschutz BW, Königstraße 10a, 70173 Stuttgart – <a href="https://www.baden-wuerttemberg.datenschutz.de" target="_blank">www.baden-wuerttemberg.datenschutz.de</a></p></div>
+</div>
+
+<script>
+
+const navbar=document.getElementById('navbar');
+window.addEventListener('scroll',()=>navbar.classList.toggle('scrolled',window.scrollY>60));
+const hbg=document.getElementById('hamburger'),navLinks=document.getElementById('nav-links');
+hbg.addEventListener('click',()=>{hbg.classList.toggle('open');navLinks.classList.toggle('open');});
+navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{hbg.classList.remove('open');navLinks.classList.remove('open');}));
+function openModal(id){document.getElementById('modal-'+id).classList.add('active');document.body.style.overflow='hidden';}
+function closeModal(id){document.getElementById('modal-'+id).classList.remove('active');document.body.style.overflow='';}
+document.querySelectorAll('.modal-overlay').forEach(o=>o.addEventListener('click',e=>{if(e.target===o){o.classList.remove('active');document.body.style.overflow=''}}));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelectorAll('.modal-overlay.active').forEach(o=>{o.classList.remove('active');document.body.style.overflow='';});});
+const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+
+// ── SHARED BOLT ──
+function bolt(x1,y1,x2,y2,d){
+  if(d===0)return[[x1,y1],[x2,y2]];
+  const mx=(x1+x2)/2+(Math.random()-.5)*62,my=(y1+y2)/2+(Math.random()-.5)*32;
+  return[...bolt(x1,y1,mx,my,d-1),...bolt(mx,my,x2,y2,d-1)];
+}
+function drawBolt(ctx,pts,op,w,col){
+  if(!pts||pts.length<2)return;
+  ctx.beginPath();ctx.moveTo(pts[0][0],pts[0][1]);
+  pts.forEach(([x,y])=>ctx.lineTo(x,y));
+  ctx.strokeStyle=`rgba(${col},${op})`;ctx.lineWidth=w;
+  ctx.shadowColor=`rgba(${col},1)`;ctx.shadowBlur=13;ctx.stroke();ctx.shadowBlur=0;
+}
+
+// ── SCROLL LIGHTNING (fixed overlay) ──
+;(function(){
+  const cv=document.createElement('canvas');
+  cv.style.cssText='position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;';
+  document.body.appendChild(cv);
+  const ctx=cv.getContext('2d');
+  function sz(){cv.width=window.innerWidth;cv.height=window.innerHeight;}sz();
+  window.addEventListener('resize',sz);
+  let bolts=[],lastY=window.scrollY,cd=0;
+  window.addEventListener('scroll',()=>{
+    const ny=window.scrollY,vel=Math.abs(ny-lastY);lastY=ny;cd--;
+    const heroRect=document.getElementById('hero').getBoundingClientRect();
+    if(heroRect.bottom<=0){bolts=[];ctx.clearRect(0,0,cv.width,cv.height);ticking=false;return;}
+  const heroVisible=heroRect.bottom>120;
+    if(!heroVisible){bolts=[];return;}
+    if(vel>4&&cd<=0){
+      const sx=Math.random()*cv.width;
+      bolts.push({pts:bolt(sx,0,sx+(Math.random()-.5)*180,Math.random()*cv.height*.65,4),life:22,max:22});
+      if(Math.random()<.55)bolts.push({pts:bolt(Math.random()*cv.width,0,Math.random()*cv.width,Math.random()*cv.height*.55,3),life:14,max:14});
+      if(vel>18&&Math.random()<.4)bolts.push({pts:bolt(Math.random()*cv.width,0,Math.random()*cv.width,Math.random()*cv.height*.7,4),life:18,max:18});
+      cd=Math.max(2,10-vel*.25);
+    }
+  },{passive:true});
+  (function tick(){
+    ctx.clearRect(0,0,cv.width,cv.height);
+    bolts=bolts.filter(b=>b.life>0);
+    bolts.forEach(b=>{drawBolt(ctx,b.pts,(b.life/b.max)*.82,(b.life/b.max)*2.2,'45,212,191');b.life--;});
+    requestAnimationFrame(tick);
+  })();
+})();
+
+// ── HERO CANVAS (A improved + D) ──
+;(function(){
+  const c=document.getElementById('hero-canvas'),ctx=c.getContext('2d');
+  function sz(){c.width=c.offsetWidth;c.height=c.offsetHeight;}sz();window.addEventListener('resize',sz);
+  let mx=-1,my=-1,lx=0,ly=0,bCd=0,iCd=130,sup=0,blues=[],strikes=[];
+  let bgPts=[];
+  function initBg(){bgPts=Array.from({length:75},()=>({x:Math.random()*c.width,y:Math.random()*c.height,vx:(Math.random()-.5)*.42,vy:(Math.random()-.5)*.42,r:Math.random()*1.7+.4,col:Math.random()>.5?'124,58,237':'20,184,166',o:Math.random()*.38+.12,life:Math.random()*200+100,max:300}));}
+  initBg();window.addEventListener('resize',initBg);
+  const hero=document.getElementById('hero');
+  hero.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect();mx=e.clientX-r.left;my=e.clientY-r.top;});
+  hero.addEventListener('mouseleave',()=>{mx=-1;my=-1;});
+  hero.addEventListener('touchmove',e=>{const t=e.touches[0],r=c.getBoundingClientRect();mx=t.clientX-r.left;my=t.clientY-r.top;},{passive:true});
+  hero.addEventListener('touchend',()=>{mx=-1;my=-1;});
+  hero.addEventListener('click',e=>{
+    const r=c.getBoundingClientRect();const cx=e.clientX-r.left,cy=e.clientY-r.top;
+    const sx=cx+(Math.random()-.5)*80,sy=Math.random()<.7?0:-(Math.random()*30);
+    strikes.push({pts:bolt(sx,sy,cx,cy,5),life:40,max:40,big:true,col:'180,140,255'});
+    for(let i=0;i<3;i++)strikes.push({pts:bolt(cx+(Math.random()-.5)*100,Math.random()*15,cx+(Math.random()-.5)*50,cy*(.08+Math.random()*.75),3),life:22,max:22,big:false,col:'45,212,191'});
+    strikes.push({flash:true,x:cx,y:cy,life:22,max:22});
+    sup=58;
+  });
+  function spawnBolt(tx,ty){
+    const t=Math.random();let sx,sy;
+    if(t<.42){sx=Math.random()*c.width;sy=-5;}else if(t<.62){sx=-5;sy=Math.random()*c.height*.75;}else if(t<.82){sx=c.width+5;sy=Math.random()*c.height*.75;}else{sx=Math.random()<.5?-20:c.width+20;sy=Math.random()*c.height*.4;}
+    return{pts:bolt(sx,sy,tx+(Math.random()-.5)*38,ty+(Math.random()-.5)*28,t<.82?4:3),life:20+Math.random()*8|0,max:26};
+  }
+  (function tick(){
+    ctx.clearRect(0,0,c.width,c.height);
+    for(let i=0;i<bgPts.length;i++)for(let j=i+1;j<bgPts.length;j++){const dx=bgPts[i].x-bgPts[j].x,dy=bgPts[i].y-bgPts[j].y,d=Math.sqrt(dx*dx+dy*dy);if(d<130){ctx.beginPath();ctx.moveTo(bgPts[i].x,bgPts[i].y);ctx.lineTo(bgPts[j].x,bgPts[j].y);ctx.strokeStyle=`rgba(124,58,237,${(1-d/130)*.11})`;ctx.lineWidth=.5;ctx.stroke();}}
+    bgPts.forEach(p=>{p.x+=p.vx;p.y+=p.vy;p.life--;if(p.life<=0||p.x<0||p.x>c.width||p.y<0||p.y>c.height){p.x=Math.random()*c.width;p.y=Math.random()*c.height;p.life=p.max;}ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fillStyle=`rgba(${p.col},${p.o*(p.life/p.max)})`;ctx.fill();});
+    if(sup>0)sup--;
+    if(mx<0&&sup<=0){iCd--;if(iCd<=0){blues.push(spawnBolt(c.width*.15+Math.random()*c.width*.7,c.height*.2+Math.random()*c.height*.55));iCd=130+Math.random()*80;}}
+    if(mx>=0&&sup<=0){const spd=Math.sqrt((mx-lx)**2+(my-ly)**2);bCd--;if(bCd<=0&&(spd>3||Math.random()<.012)){blues.push(spawnBolt(mx,my));if(Math.random()<.4)blues.push(spawnBolt(mx,my));bCd=Math.max(8,22-spd*.2);}lx=mx;ly=my;const g=ctx.createRadialGradient(mx,my,0,mx,my,38);g.addColorStop(0,'rgba(45,212,191,.12)');g.addColorStop(1,'rgba(0,0,0,0)');ctx.fillStyle=g;ctx.fillRect(0,0,c.width,c.height);}
+    blues=blues.filter(b=>b.life>0);blues.forEach(b=>{const op=(b.life/b.max)*(sup>0?.2:1);drawBolt(ctx,b.pts,op*.85,op*2.4,'45,212,191');b.life--;});
+    strikes=strikes.filter(s=>s.life>0);strikes.forEach(s=>{const op=s.life/s.max;if(s.flash){const g=ctx.createRadialGradient(s.x,s.y,0,s.x,s.y,65*op);g.addColorStop(0,`rgba(215,185,255,${op*.95})`);g.addColorStop(.5,`rgba(124,58,237,${op*.55})`);g.addColorStop(1,'rgba(0,0,0,0)');ctx.fillStyle=g;ctx.fillRect(0,0,c.width,c.height);}else{drawBolt(ctx,s.pts,op*(s.big?.9:.5),op*(s.big?3.2:1.5),s.col);}s.life--;});
+    requestAnimationFrame(tick);
+  })();
+})();
+
+// ── CARD B+D EFFECT ──
+function attachBD(card){
+  const cv=document.createElement('canvas');
+  cv.style.cssText='position:absolute;inset:0;width:100%;height:100%;pointer-events:none;border-radius:inherit;z-index:0;';
+  card.insertBefore(cv,card.firstChild);
+  const ctx=cv.getContext('2d');
+  let mx=-1,my=-1,strikes=[];
+  const RP=20,AR=85,RM=26;
+  function resize(){cv.width=card.offsetWidth;cv.height=card.offsetHeight;}resize();
+  const pts=Array.from({length:60},()=>({
+    x:Math.random()*cv.width,y:Math.random()*cv.height,
+    vx:(Math.random()-.5)*.5,vy:(Math.random()-.5)*.5,
+    r:Math.random()*1.4+.5,
+    col:Math.random()>.5?'124,58,237':'20,184,166',
+    o:Math.random()*.45+.18,
+    wx:(Math.random()-.5)*.22,wy:(Math.random()-.5)*.22,wt:Math.floor(Math.random()*80)
+  }));
+  function setMouse(e,el){const r=el.getBoundingClientRect();mx=e.clientX-r.left;my=e.clientY-r.top;}
+  function setTouch(e,el){const t=e.touches[0],r=el.getBoundingClientRect();mx=t.clientX-r.left;my=t.clientY-r.top;}
+  card.addEventListener('mouseenter',()=>resize());
+  card.addEventListener('mouseleave',()=>{mx=-1;my=-1;});
+  card.addEventListener('mousemove',e=>setMouse(e,card));
+  card.addEventListener('touchstart',e=>{resize();setTouch(e,card);},{passive:true});
+  card.addEventListener('touchmove',e=>setTouch(e,card),{passive:true});
+  card.addEventListener('touchend',()=>{mx=-1;my=-1;});
+  card.addEventListener('click',e=>{
+    const r=card.getBoundingClientRect();const cx=e.clientX-r.left,cy=e.clientY-r.top;
+    strikes.push({pts:bolt(cx+(Math.random()-.5)*cv.width*.65,0,cx,cy,4),life:30,max:30});
+    strikes.push({flash:true,x:cx,y:cy,life:16,max:16});
+  });
+  (function tick(){
+    ctx.clearRect(0,0,cv.width,cv.height);
+    // inter-particle repulsion
+    for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){const dx=pts[i].x-pts[j].x,dy=pts[i].y-pts[j].y,d=Math.sqrt(dx*dx+dy*dy)||1;if(d<RP){const f=((RP-d)/RP)*.85,fx=dx/d*f,fy=dy/d*f;pts[i].vx+=fx*.1;pts[i].vy+=fy*.1;pts[j].vx-=fx*.1;pts[j].vy-=fy*.1;}}
+    pts.forEach(p=>{
+      p.wt--;if(p.wt<=0){p.wx=(Math.random()-.5)*.22;p.wy=(Math.random()-.5)*.22;p.wt=60+Math.random()*80|0;}
+      p.vx+=p.wx*.05;p.vy+=p.wy*.05;
+      if(mx>=0){const dx=mx-p.x,dy=my-p.y,d=Math.sqrt(dx*dx+dy*dy)||1;if(d<RM){const f=((RM-d)/RM)*4.5;p.vx-=(dx/d)*f*.22;p.vy-=(dy/d)*f*.22;p.vx+=(Math.random()-.5)*.8;p.vy+=(Math.random()-.5)*.8;}else if(d<AR){const t=(d-RM)/(AR-RM);p.vx+=(dx/d)*t*3.5*.1;p.vy+=(dy/d)*t*3.5*.1;p.vx+=(Math.random()-.5)*.15;p.vy+=(Math.random()-.5)*.15;}}
+      p.vx*=.9;p.vy*=.9;
+      const sp=Math.sqrt(p.vx*p.vx+p.vy*p.vy);if(sp>4.5){p.vx=p.vx/sp*4.5;p.vy=p.vy/sp*4.5;}if(sp<.08){p.vx+=p.wx*.3;p.vy+=p.wy*.3;}
+      p.x+=p.vx;p.y+=p.vy;
+      if(p.x<0){p.x=0;p.vx=Math.abs(p.vx)*.7;}if(p.x>cv.width){p.x=cv.width;p.vx=-Math.abs(p.vx)*.7;}
+      if(p.y<0){p.y=0;p.vy=Math.abs(p.vy)*.7;}if(p.y>cv.height){p.y=cv.height;p.vy=-Math.abs(p.vy)*.7;}
+    });
+    // connections
+    for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){const dx=pts[i].x-pts[j].x,dy=pts[i].y-pts[j].y,d=Math.sqrt(dx*dx+dy*dy);if(d<130){ctx.beginPath();ctx.moveTo(pts[i].x,pts[i].y);ctx.lineTo(pts[j].x,pts[j].y);ctx.strokeStyle=`rgba(124,58,237,${(1-d/130)*.55})`;ctx.lineWidth=.7;ctx.stroke();}}
+    pts.forEach(p=>{ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fillStyle=`rgba(${p.col},${p.o})`;ctx.fill();});
+    if(mx>=0){const g=ctx.createRadialGradient(mx,my,0,mx,my,32);g.addColorStop(0,'rgba(124,58,237,.18)');g.addColorStop(1,'rgba(0,0,0,0)');ctx.fillStyle=g;ctx.fillRect(0,0,cv.width,cv.height);}
+    strikes=strikes.filter(s=>s.life>0);strikes.forEach(s=>{const op=s.life/s.max;if(s.flash){const g=ctx.createRadialGradient(s.x,s.y,0,s.x,s.y,44*op);g.addColorStop(0,`rgba(210,175,255,${op*.88})`);g.addColorStop(1,'rgba(0,0,0,0)');ctx.fillStyle=g;ctx.fillRect(0,0,cv.width,cv.height);}else{drawBolt(ctx,s.pts,op*.9,op*2.4,'170,130,255');}s.life--;});
+    requestAnimationFrame(tick);
+  })();
+}
+document.querySelectorAll('.usp-card,.ccard,.svc-card').forEach(attachBD);
+
+// ── KONTAKT CANVAS (B background) ──
+;(function(){
+  const c=document.getElementById('kontakt-canvas'),ctx=c.getContext('2d');
+  const sec=document.getElementById('kontakt');
+  function sz(){c.width=sec.offsetWidth;c.height=sec.offsetHeight;}sz();window.addEventListener('resize',sz);
+  let mx=-1,my=-1;
+  const ATTRACT_R=130,RM=38,RP=28;
+  const pts=Array.from({length:48},()=>({x:Math.random()*c.width,y:Math.random()*c.height,vx:(Math.random()-.5)*.55,vy:(Math.random()-.5)*.55,r:Math.random()*1.7+.5,col:Math.random()>.5?'124,58,237':'20,184,166',o:Math.random()*.3+.13,wx:(Math.random()-.5)*.25,wy:(Math.random()-.5)*.25,wt:Math.floor(Math.random()*120)}));
+  sec.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect();mx=e.clientX-r.left;my=e.clientY-r.top;});
+  sec.addEventListener('mouseleave',()=>{mx=-1;my=-1;});
+  sec.addEventListener('touchmove',e=>{const t=e.touches[0],r=c.getBoundingClientRect();mx=t.clientX-r.left;my=t.clientY-r.top;},{passive:true});
+  sec.addEventListener('touchend',()=>{mx=-1;my=-1;});
+  (function tick(){
+    ctx.clearRect(0,0,c.width,c.height);
+    for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){const dx=pts[i].x-pts[j].x,dy=pts[i].y-pts[j].y,d=Math.sqrt(dx*dx+dy*dy)||1;if(d<RP){const f=((RP-d)/RP)*.9,fx=dx/d*f,fy=dy/d*f;pts[i].vx+=fx*.12;pts[i].vy+=fy*.12;pts[j].vx-=fx*.12;pts[j].vy-=fy*.12;}}
+    pts.forEach(p=>{p.wt--;if(p.wt<=0){p.wx=(Math.random()-.5)*.28;p.wy=(Math.random()-.5)*.28;p.wt=80+Math.random()*100|0;}p.vx+=p.wx*.05;p.vy+=p.wy*.05;if(mx>=0){const dx=mx-p.x,dy=my-p.y,d=Math.sqrt(dx*dx+dy*dy)||1;if(d<RM){const f=((RM-d)/RM)*2.8;p.vx-=(dx/d)*f*.14;p.vy-=(dy/d)*f*.14;}else if(d<ATTRACT_R){const t=(d-RM)/(ATTRACT_R-RM);p.vx+=(dx/d)*t*2*.07;p.vy+=(dy/d)*t*2*.07;}}p.vx*=.91;p.vy*=.91;const sp=Math.sqrt(p.vx*p.vx+p.vy*p.vy);if(sp>3){p.vx=p.vx/sp*3;p.vy=p.vy/sp*3;}if(sp<.08){p.vx+=p.wx*.3;p.vy+=p.wy*.3;}p.x+=p.vx;p.y+=p.vy;if(p.x<0){p.x=0;p.vx=Math.abs(p.vx)*.7;}if(p.x>c.width){p.x=c.width;p.vx=-Math.abs(p.vx)*.7;}if(p.y<0){p.y=0;p.vy=Math.abs(p.vy)*.7;}if(p.y>c.height){p.y=c.height;p.vy=-Math.abs(p.vy)*.7;}});
+    for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){const dx=pts[i].x-pts[j].x,dy=pts[i].y-pts[j].y,d=Math.sqrt(dx*dx+dy*dy);if(d<118){ctx.beginPath();ctx.moveTo(pts[i].x,pts[i].y);ctx.lineTo(pts[j].x,pts[j].y);ctx.strokeStyle=`rgba(124,58,237,${(1-d/118)*.3})`;ctx.lineWidth=.8;ctx.stroke();}}
+    pts.forEach(p=>{ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fillStyle=`rgba(${p.col},${p.o})`;ctx.fill();});
+    if(mx>=0){const g=ctx.createRadialGradient(mx,my,0,mx,my,70);g.addColorStop(0,'rgba(124,58,237,.14)');g.addColorStop(1,'rgba(0,0,0,0)');ctx.fillStyle=g;ctx.fillRect(0,0,c.width,c.height);}
+    requestAnimationFrame(tick);
+  })();
+})();
+
+</script>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
